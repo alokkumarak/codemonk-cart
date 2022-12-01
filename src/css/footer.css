@@ -1,0 +1,154 @@
+.footer{
+    background-color: rgb(31, 30, 30);
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+   padding: 30px 3%;
+
+}
+.footerT{
+    display: flex;
+    justify-content: space-between;
+   border-bottom: 1px solid rgb(209, 206, 206);
+   padding-bottom: 40px ;
+}
+.footerTL{
+    width: 80%;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
+.footerTL1{
+    display: flex;
+    flex-direction: column;
+}
+.footerTL1_Title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footerTL1_dummy{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(240, 238, 238);
+}
+.footerTR{
+    width: 20%;
+    border-left: 1px solid rgb(168, 166, 166);
+    height: 220px;
+   padding-left: 50px;
+}
+.footerTR_c{
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-bottom: 18px;
+}
+.footerTR_location{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.footerTR_locationL{
+    font-size: 14px !important;
+}
+.footerTR_locationLT{
+    color: rgb(197, 196, 196);
+    margin-bottom: 2px;
+}
+
+.footerTR_call{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(209, 207, 207);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footerTR_call > img{
+    margin-right: 15px;
+}
+
+.footerTR_email{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.footerB{
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 5%;
+}
+.footerBT{
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:1250px) {
+    .footer{
+    
+   padding: 30px 1%;
+
+}
+.footerT{
+   padding-bottom: 30px ;
+}
+.footerTL{
+    width: 60%;
+   }
+
+
+.footerTR{
+    width: 40%;
+    height:auto;
+   padding-left: 30px;
+}
+.footerTR_c{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footerTR_locationL{
+    font-size: 13px !important;
+}
+
+.footerTR_call{
+
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.footerTR_call > img{
+    margin-right: 10px;
+}
+
+.footerTR_email{
+    font-size: 14px;
+}
+
+.footerB{
+    margin-top: 10px;
+    margin-bottom: 3%;
+}
+.footerBT{
+    margin-bottom: 7px;
+}
+}
+
+@media screen and (max-width:650px) {
+   .footerT{
+       display: none;
+   } 
+   .footerB{
+    margin-right: auto;
+}
+.footerBT{
+    margin-right: auto;
+
+}
+}

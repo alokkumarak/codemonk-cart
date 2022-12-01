@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CartPage from './components/CartPage';
+import Navbar from './components/Navbar';
+import Steppers from "./components/Stepper";
+import Footer from "./components/Footer";
+
+import data from './data.json'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Steppers />
+      <CartPage discount={data.discount} products={data.products}  pincode={data.pincode}/>
+      <Footer />
+    </>
   );
 }
 

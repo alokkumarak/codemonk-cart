@@ -1,0 +1,13 @@
+.stepper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+    color: black !important;
+}
+.MuiStepLabel-label{
+    font-size: 12px !important;
+}
