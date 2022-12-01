@@ -5,7 +5,7 @@
       "id": 1,
       "name": "Earphones",
       "price": 12690,
-      "imageUrl": "../Image/Earphone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901861/Earphone_fiuyoz.png",
       "desc": "Silver"
     },
     {
@@ -13,26 +13,28 @@
       "tagline": "200 Cash back",
       "name": "Test 6X",
       "price": 14000,
-      "imageUrl": "../Images/phone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901923/phone_wns23o.png",
       "desc": "32GB Gold \n\n Extended Warranty",
       "planLink": "http://pointstonothing.com/linktoplan",
       "gift": {
         "name": "Glory Selfie Stick",
         "desc": "Silver Moon",
-        "price": 175
+        "price": 175,
+        "imgUrl":"https://res.cloudinary.com/dpucwezsk/image/upload/v1669901958/stick_qj6ghc.png"
       }
     },
     {
       "id": 3,
       "name": "Test 6X",
       "price": 18000,
-      "imageUrl": "./Images/phone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901923/phone_wns23o.png",
       "desc": "64GB Gold \n\n Extended Warranty",
       "planLink": "http://pointstonothing.com/linktoplan",
       "gift": {
         "name": "Glory Selfie Stick",
         "desc": "Silver Moon",
-        "price": 175
+        "price": 175,
+        "imgUrl":"https://res.cloudinary.com/dpucwezsk/image/upload/v1669901958/stick_qj6ghc.png"
       }
     },
     {
@@ -40,21 +42,21 @@
       "tagline": "100 Cash back",
       "name": "Earphones",
       "price": 11690,
-      "imageUrl": "/Images/Earphone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901861/Earphone_fiuyoz.png",
       "desc": "White"
     },
     {
       "id": 5,
       "name": "Earphones",
       "price": 11690,
-      "imageUrl": "./Images/phone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901923/phone_wns23o.png",
       "desc": "Orange"
     },
     {
       "id": 6,
       "name": "Test 5X",
       "price": 10000,
-      "imageUrl": "./Images/Earphone.png",
+      "imageUrl": "https://res.cloudinary.com/dpucwezsk/image/upload/v1669901861/Earphone_fiuyoz.png",
       "desc": "32GB Gold"
     }
   ],

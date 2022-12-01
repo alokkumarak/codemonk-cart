@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import deleteIcon from "../icon/DELETE.png";
-import productItem  from "../Images/phone.png";
+// import productItem  from "../Images/phone.png";
 import stand from '../Images/stick.png'
 import '../css/cartProduct.css'
 
@@ -8,6 +8,7 @@ function CartProduct({ product, discount}) {
   // const imga =product.imageUrl;
   // console.log(imga)
   // const [subTotal,setSubTotal]=useState(product.price)
+//   const productItem=product.imageUrl;
   const [Quantity, setQuantity] = useState(1);
 
   const decreaseQ = () => {
@@ -29,7 +30,7 @@ function CartProduct({ product, discount}) {
         <div className="cart_prodLeft">
           <div>
             {" "}
-            <img src={productItem} alt="cart product" />
+            <img src={product.imageUrl} alt="cart product" />
           </div>
         </div>
         <div className="cart_prodRight">
@@ -70,7 +71,7 @@ function CartProduct({ product, discount}) {
           <div className="cart_freeL">
             <div>
               {" "}
-              <img src={stand} alt="stand" />
+              <img src={product.gift.imgUrl} alt="stand" />
             </div>
           </div>
           <div className="cart_freeR">

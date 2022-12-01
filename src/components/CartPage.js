@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/cartPage.css'
 import CartProduct from './CartProduct';
 import locationIcon from '../icon/LOCATION.png'
@@ -6,7 +6,12 @@ import checkIcon from '../icon/check.png'
 
 
 function CartPage({discount, products, pincode}) {
+   const [pin,setPin]=useState()
+   
 
+   const checkPin=()=>{
+        
+   }
     
     // console.log(products[0]);
     return (
@@ -35,15 +40,15 @@ function CartPage({discount, products, pincode}) {
                 <div className="orderLeft_title">Delivery Availability</div>
                 <div className="orderInput">
                   <img src={locationIcon} alt="location" />
-                  <input type="text" placeholder="enter pin" />
-                  <div className="orderLeft_button">change</div>
+                  <input type="number" placeholder="enter pin" value={pin} onChange={(e)=>setPin(e.target.value)} />
+                  <div className="orderLeft_button" onClick={()=>checkPin()} >change</div>
                 </div>
                 <div className="orderLeft_bottom">
                   <div className="orderLeft_free">
                     <img src={checkIcon} alt="check" />
                     <div>Free delivery</div>
                   </div>
-                  <div className="orderLeft_free">
+                 <div className="orderLeft_free">
                     <img src={checkIcon} alt="check" />
                     <div>Cash on delivery</div>
                   </div>
